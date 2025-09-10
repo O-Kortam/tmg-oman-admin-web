@@ -1,0 +1,173 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --Primary: #003462;
+  --Secondary: #AF7E3C;
+  --Dark: #313131;
+  --offWhite: #FAFAFA;
+  --gray: #EEEEEE;
+  --borderColor: #E5E5E5;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-cairo: 'Cairo', sans-serif;
+}
+
+
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-cairo: var(--font-cairo);
+  --font-montserrat: var(--font-montserrat);
+  --color-Primary: var(--Primary);
+  --color-Secondary: var(--Secondary);
+  --color-Dark: var(--Dark);
+  --color-offWhite: var(--offWhite);
+  --color-gray: var(--gray);
+  --color-borderColor: var(--borderColor);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #FAFAFA;
+    --foreground: #313131;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  user-select: none;
+
+}
+
+html[dir="rtl"] .react-tel-input .selected-flag {
+  padding: 0 11px 0 0;
+  right: 0;
+  left: auto;
+}
+  
+html[dir="rtl"] .react-tel-input .form-control {
+  text-align: right;
+  padding-right: 48px;
+  padding-left: 12px;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(0.98);
+    opacity: 0.35;
+  }
+
+  50% {
+    transform: scale(1.02);
+    opacity: 0.5;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes whiteToOriginal {
+
+  0%,
+  100% {
+    filter: brightness(0) invert(1);
+  }
+
+  50% {
+    filter: none;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.animate-fadeUp.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-fadeUp.delay-400 {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

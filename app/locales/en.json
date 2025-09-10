@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Home",
+    "sultanCity": "The Residential Project",
+    "coast": "The Coastal Project",
+    "about": "About",
+    "contact": "Register Interest",
+    "arabic": "العربية",
+    "english": "English"
+  },
+  "footer": {
+    "aboutText": "Talaat Moustafa Group (TMG), a leading conglomerate with special emphasis on developing integrated projects.",
+    "copyright": "© Talaat Moustafa Group. All rights reserved.",
+    "contactUs": "Contact us"
+  },
+  "contact": {
+    "title": "Let's Build New Oman",
+    "heading": "Contact us",
+    "subheading": "Let's Get in Touch",
+    "name": "Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "reason": "Reason of Contacting",
+    "country": "Country",
+    "interested": "Interested In",
+    "interestedPlaceholder": "e.g., Residential Units",
+    "message": "Message",
+    "messagePlaceholder": "Write your message...",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "error": "Submission failed, please try again.",
+    "reasons": [
+      "sales",
+      "support",
+      "partnership",
+      "other"
+    ],
+    "project": "Select Project",
+    "projects": [
+      "The Residential Project",
+      "The Coastal Project"
+    ],
+    "submitted": "Thank you! Your message has been sent.",
+    "successMessage": "We will get back to you shortly.",
+    "submitAgain": "Submit Again"
+  },
+  "property": {
+    "beds": "Beds",
+    "baths": "Baths",
+    "area": "Area",
+    "finish": "Finishing",
+    "reserveNow": "Reserve Now",
+    "unitType": "Unit Type",
+      "callToActionTitle": "Interested in this Unit?",
+    "callToActionDesc": "Register your interest or download the brochure for more information.",
+    "registerText": "Register Interest",
+    "downloadText": "Download PDF",
+    "registerLink": "/register-interest",
+    "phase":"Phase",
+    "detailsTitle":"Unit Details"
+
+  },
+  
+  "filters": {
+    "selectType": "Select Type",
+    "beds": "Beds",
+    "baths": "Baths",
+    "area": "Area",
+    "areaUnit": "sqm",
+    "showMore": "Show More",
+    "reserveNow": "Reserve Now",
+    "types": [
+      "Apartment",
+      "Villa",
+      "Townhouse",
+      "Studio"
+    ]
+  },
+  "unitGallery": {
+    "subtitle": "Our Units",
+    "title": "Explore the Gallery",
+    "description": "Take a closer look at our beautiful units and see the details up close."
+  },
+
+  "getDirection":"Get Directions"
+}

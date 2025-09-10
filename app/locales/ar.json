@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "sultanCity": "مدينة السلطان هيثم",
+    "coast": "ساحل الشخاخيط",
+    "about": "من نحن",
+    "contact": "سجل اهتمامك",
+    "arabic": "العربية",
+    "english": "English"
+  },
+  "footer": {
+    "aboutText": "مجموعة طلعت مصطفى (TMG)، تكتل رائد يركز على تطوير المشاريع المتكاملة.",
+    "copyright": "© مجموعة طلعت مصطفى. جميع الحقوق محفوظة.",
+    "contactUs": "تواصل معنا"
+  },
+  "contact": {
+    "title": "دعنا نبني عُمان الجديدة",
+    "heading": "تواصل معنا",
+    "subheading": "نحن هنا لخدمتك",
+    "name": "الاسم",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "reason": "سبب التواصل",
+    "country": "الدولة",
+    "interested": "مهتم بـ",
+    "interestedPlaceholder": "مثال: وحدات سكنية",
+    "message": "الرسالة",
+    "messagePlaceholder": "اكتب رسالتك...",
+    "submit": "إرسال",
+    "submitting": "جارٍ الإرسال...",
+    "error": "فشل الإرسال، يرجى المحاولة مرة أخرى.",
+    "reasons": [
+      "مبيعات",
+      "دعم",
+      "شراكة",
+      "أخرى"
+    ],
+    "project": "اختر المشروع",
+    "projects": [
+      "المشروع السكني",
+      "المشروع الساحلي"
+    ],
+    "submitted": "شكرًا! تم إرسال رسالتك.",
+    "successMessage": "سوف نتواصل معك قريبًا.",
+    "submitAgain": "إرسال مرة أخرى"
+  },
+  "property": {
+    "beds": "سرير",
+    "baths": "حمام",
+    "area": "المساحة",
+    "finish": "التشطيب",
+    "reserveNow": "احجز الآن",
+    "unitType": "نوع الوحدة",
+    "callToActionTitle": "مهتم بهذه الوحدة؟",
+    "callToActionDesc": "سجل اهتمامك أو قم بتحميل الكتيب لمزيد من المعلومات.",
+    "registerText": "سجل اهتمامك",
+    "downloadText": "تحميل PDF",
+    "registerLink": "/register-interest",
+        "phase":"المرحلة",
+        "detailsTitle":"عن الوحدة"
+
+  },
+  "filters": {
+    "selectType": "اختر النوع",
+    "beds": "سرير",
+    "baths": "حمام",
+    "area": "المساحة",
+    "areaUnit": "م²",
+    "showMore": "عرض المزيد",
+    "reserveNow": "احجز الآن",
+    "types": [
+      "شقة",
+      "فيلا",
+      "تاون هاوس",
+      "ستوديو"
+    ]
+  },
+  "unitGallery": {
+    "subtitle": "وحداتنا",
+    "title": "استكشف المعرض",
+    "description": "ألقِ نظرة أقرب على وحداتنا الجميلة وشاهد التفاصيل عن قرب."
+  },
+    "getDirection":"اتجه الي الفرع"
+
+}

@@ -7,7 +7,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'tmg-oman-strapi-dev.nuca-mycluster-eu-de-1-cx-5fc3035946e1f798c7284cb63267e8d1-0000.eu-de.containers.appdomain.cloud',
+        hostname: 'tmg-oman-strapi.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud',
       },
     ],
   },

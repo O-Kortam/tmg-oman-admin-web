@@ -103,17 +103,22 @@ export default function ContactUs({
 
   return (
     <section className="w-full px-4 py-16 md:p-24 bg-white border-b border-offWhite text-Dark">
-      <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 w-full h-full">
-        <FadeIn
+      <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-center">
+    
+          <div className="relative flex-1 rounded-lg overflow-hidden h-64 md:h-full w-full">
+                <FadeIn
           delay={0.1}
 
         >
-          <div className="relative flex-3 rounded-lg overflow-hidden h-64 md:h-full w-full">
             <Image
-              src="https://tmg-oman-strapi-dev.nuca-mycluster-eu-de-1-cx-5fc3035946e1f798c7284cb63267e8d1-0000.eu-de.containers.appdomain.cloud/uploads/28328797_976667951e.jpg"
+              src="https://tmg-oman-strapi.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud/uploads/28328797_976667951e.jpg"
               alt="Contact background"
               width={500}
               height={500}
+              sizes="(max-width: 768px) 100vw,
+         (max-width: 1024px) 90vw,
+         (max-width: 1920px) 90vw,
+         750px"       
               className="object-cover z-0 w-full h-full"
             />
 
@@ -127,13 +132,14 @@ export default function ContactUs({
                 >{t.contact.title}</h2>
               </FadeIn>
             </div>
+                </FadeIn>
           </div>
-        </FadeIn>
+    
 
 
         <form
           onSubmit={handleSubmit}
-          className="flex-4 flex flex-col gap-4 text-sm mx-auto w-full"
+          className="flex-1 flex flex-col gap-4 text-sm mx-auto w-full h-full"
         >
           <div>
             <FadeIn delay={0.1} >

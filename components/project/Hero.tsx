@@ -22,11 +22,11 @@ export default function Hero({ data }: { data: HeroData }) {
             <div className="relative h-[70vh] w-full">
               <Image
                 src={item.img?.url}
-                alt={item?.title}
+                alt={item?.title || "image"}
                 fill
                 priority={i === 0}
-                fetchPriority={i === 0 ? "high" : undefined}
-                sizes="(max-width: 1920) 90vw, (max-width: 1024px) 90vw, (max-width: 768px) 90vw, 750px"
+                fetchPriority={i === 0 ? "high" : "low"}
+                sizes="(max-width: 768px) 80vw, (max-width: 1024px) 70vw, (max-width: 1920px) 60vw, 50vw"
                 className="object-cover absolute inset-0 w-full h-full"
               />
               <div className="absolute inset-0 bg-black/30" />

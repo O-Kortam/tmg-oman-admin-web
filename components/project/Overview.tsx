@@ -40,28 +40,28 @@ export default function Overview({ data }: { data: OverviewSection }) {
           </FadeIn>
           <FadeIn delay={0.8}>
             <Link
-               href={data?.btnLink}
+              href={data?.btnLink}
               className="bg-Primary/10 text-Primary px-4 py-2 rounded"
             >
-               {data?.btnText2}
+              {data?.btnText2}
             </Link>
           </FadeIn>
         </div>
       </div>
       <div className="flex gap-4 w-full flex-col md:flex-row ">
         {data?.img?.map((item: any, i: number) => (
-          <div  key={i} className={` md:h-[60vh] w-full ${i === 0 ? "md:w-4/12" : i === 1 ? "md:w-8/12" : "w-auto"
+          <div key={i} className={`md:h-[60vh] w-full ${i === 0 ? "md:w-4/12" : i === 1 ? "md:w-8/12" : "w-auto"
             }`}>
-          <FadeIn delay={0.1 + i * 0.2} >
-            <Image
-
-              src={item?.url}
-              alt="image"
-              width={800}
-              height={800}
-              className="w-full h-full object-cover rounded-lg object-cover md:h-[60vh] w-full"
-            />
-          </FadeIn>
+            <FadeIn delay={0.1 + i * 0.2} className="relative h-64 md:h-full w-full rounded-lg overflow-hidden">
+              <Image
+                src={item?.url}
+                alt={item?.alt || 'image'}
+                fill
+                sizes="(max-width:640px) 40vw, (max-width:1024px) 70vw, 50vw"
+                priority={false}
+                className="object-cover rounded-lg object-cover md:h-[60vh] w-full"
+              />
+            </FadeIn>
           </div>
         ))}
       </div>

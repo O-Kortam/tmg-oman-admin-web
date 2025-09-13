@@ -32,9 +32,9 @@ export default function Numbers({ data }: { data: AchievementsProps }) {
               {title}
             </h2>
           </FadeIn>
-          <div className="text-sm md:text-base font-semibold md:w-2/6 md:text-end">
+          <div className="md:w-2/6 md:text-end">
           <FadeIn delay={0.4} >
-            <p >
+            <p className="text-sm md:text-base font-semibold">
               {desc}
             </p>
           </FadeIn>

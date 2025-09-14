@@ -1,8 +1,9 @@
 // src/lib/cmsClient.ts
 
+console.log("🔍 ENV NEXT_PUBLIC_STRAPI_URL =", process.env.NEXT_PUBLIC_STRAPI_URL);
+
 export const USE_MOCK = false;
 export const baseUrl = process.env.NEXT_PUBLIC_STRAPI_URL || 'http://localhost:1337/api';
-
 function prependStrapiUrl(data: any): any {
   if (!data) return data;
 
@@ -29,6 +30,7 @@ function prependStrapiUrl(data: any): any {
 
 export async function fetchCMS(endpoint: string, locale?: string) {
   const url = new URL(`${baseUrl}/${endpoint.includes('?') ? endpoint : `${endpoint}?`}`);
+  console.log("👉 fetchCMS will call:", url.toString()); 
 
   if (locale) {
     url.searchParams.set('locale', locale);

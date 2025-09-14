@@ -10,6 +10,9 @@ RUN npm install
 # Copy source code
 COPY . .
 
+ARG NEXT_PUBLIC_STRAPI_URL
+ENV NEXT_PUBLIC_STRAPI_URL=${NEXT_PUBLIC_STRAPI_URL}
+
 # Build Next.js app
 RUN npm run build
 

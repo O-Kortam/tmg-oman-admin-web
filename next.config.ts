@@ -8,7 +8,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname:
-          'tmg-oman-strapi.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud',
+          'tmg-oman-front.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud',
       },
     ],
   },
@@ -17,7 +17,7 @@ const nextConfig = {
   },
   env: {
     NEXT_PUBLIC_API_URL:
-      'https://tmg-oman-strapi.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud',
+      'https://tmg-oman-front.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud/api',
   },
 };
 

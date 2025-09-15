@@ -111,7 +111,7 @@ export default function ContactUs({
 
         >
             <Image
-              src="https://tmg-oman-strapi.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud/uploads/28328797_976667951e.jpg"
+              src="https://tmg-oman-front.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud/uploads/28328797_976667951e.jpg"
               alt="Contact background"
               width={500}
               height={500}

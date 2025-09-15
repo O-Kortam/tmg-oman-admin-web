@@ -1,5 +1,5 @@
 export async function postCMS(endpoint: string, body: any) {
-  const baseUrl = process.env.NEXT_PUBLIC_STRAPI_URL;
+  const baseUrl = "https://tmg-oman-front.tmg-service-eu-de-1-cx2-1-24c93556c7052421b1e777d2c03a04e1-0000.eu-de.containers.appdomain.cloud/api";
 
   const url = `${baseUrl}/${endpoint}`;
 
